@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro:wght@300;400&display=swap");
 
 body {
@@ -16,9 +21,21 @@ h1 {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 350;
     font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 5px;
 }
 
 h2 {
     font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social img {
+    width: 33px;
 }
 
