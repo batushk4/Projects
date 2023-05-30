@@ -21,8 +21,7 @@ h1 {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 350;
     font-size: 24px;
-    margin-top: 14px;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -33,6 +32,13 @@ h2 {
 .profile {
     margin-top: 20px;
     text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 15px 0;
 }
 
 .social img {
